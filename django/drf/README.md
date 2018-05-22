@@ -7,3 +7,5 @@ framework이다.
 
 > 상당히 중요한 부분들이 많은 수 있기 때문에  
 정리를 잘 해놓아야겠다.
+
+1. APIView_generic_ListAPI
