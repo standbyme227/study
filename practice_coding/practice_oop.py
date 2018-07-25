@@ -36,6 +36,8 @@ class Animal():
         distance = self.move(distance)
         print("{}m를 걷는다.".format(distance))
 
+
+
 class Human(Animal):
     def __init__(self, name, height, weight):
         super().__init__(name, height, weight)
@@ -70,3 +72,31 @@ person.walk(2)
 happy = Dog("OOP의 희생양이되는 강아지", 40, 13)
 print(happy.name)
 happy.walk(10)
+
+
+# class Grandparent(object):
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def my_method(self):
+#         print ("Grandparent")
+#
+# class Parent(Grandparent):
+#     def __init__(self, email ):
+#         self.email = email
+#     def some_other_method(self):
+#         print ("Parent")
+#
+# class Child(Parent):
+#     def __init__(self, name):
+#         super(Child, self).__init__(name)
+#
+#     def my_method(self):
+#         print ("Hello Grandparent")
+#         super(Child, self).my_method()
+#
+# gp = Grandparent("종민이할아버지")
+#
+#
+# child = Child("종민이")
+# child.my_method()
